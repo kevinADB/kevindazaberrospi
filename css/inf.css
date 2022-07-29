@@ -1,0 +1,28 @@
+
+/*cuerpo*/
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-image: url(../img/paisaje.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	/*background="img/paisaje1.jpg"*/
+}
+body:before{
+	content:"";
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;/*absolute*/
+	top: 0;
+	left: 0;
+	background: linear-gradient(0,#50c47c,#edf7f0);
+	/*background: linear-gradient(rgba(5, 7, 12, 0.60),
+	rgba(5, 7, 12, 0.6));*/
+	opacity: 0.7;
+	z-index: -1;
+}
+.casa{
+	background: linear-gradient(0, #b8e886, #7dc431);
+}
